@@ -173,6 +173,10 @@ FOOTER
     padding-bottom: 10px;
 }
 
+.bot-nav {
+    display: none;
+}
+
 /*
 Media Queries
 */
@@ -225,6 +229,21 @@ Media Queries
 	.contact p {
 		width: 80%;
 	}
+    
+    .bot-nav {
+        display: inline;
+    }
+    
+    #top {
+        display: none;
+    }
+    
+    .bot-nav a {
+        float: right;
+        display: inline;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
 }
 
 @media (min-width: 1024px) {
